@@ -1,0 +1,72 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev ratingsQuantity
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Calibre2\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:181:17)
+
+npm manifest: 
+  {
+    "name": "notours",
+    "version": "1.0.0",
+    "description": "Learning node, express and mongoDB",
+    "main": "app.js",
+    "scripts": {
+      "start": "nodemon server.js",
+      "start:prod": "set NODE_ENV=production&& nodemon server.js",
+      "debug": "ndb server.js",
+      "watch.js": "ratingsQuantity watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    },
+    "author": "Elide Zavala Vinagre",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cookie-parser": "^1.4.6",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.2",
+      "express-mongo-sanitize": "^2.2.0",
+      "express-rate-limit": "^6.3.0",
+      "helmet": "^3.23.3",
+      "hpp": "^0.2.3",
+      "jsonwebtoken": "^8.5.1",
+      "mapbox-gl": "^2.7.0",
+      "mongoose": "^5.13.14",
+      "morgan": "^1.10.0",
+      "ndb": "^1.1.5",
+      "nodemailer": "^4.7.0",
+      "nodemon": "^2.0.15",
+      "pug": "^3.0.2",
+      "slugify": "^1.6.5",
+      "validator": "^13.7.0",
+      "xss-clean": "^0.1.1"
+    },
+    "devDependencies": {
+      "eslint": "^8.8.0",
+      "eslint-config-airbnb": "^19.0.4",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-import": "^2.25.4",
+      "eslint-plugin-jsx-a11y": "^6.5.1",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-react": "^7.28.0",
+      "prettier": "^2.5.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
