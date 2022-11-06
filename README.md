@@ -85,7 +85,7 @@ heroku open
 
 ## Installation
 You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the
-dependencies by running
+dependencies by running.
 ```
 $ npm i
 set your env variables
