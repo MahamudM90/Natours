@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://lakshman-natours.herokuapp.com/"><img src="./public/img/logo-green-round.png" alt="Natours" width="200"></a>
+  <a href="https://tourswebsiteusa.herokuapp.com/"><img src="./public/img/logo-green-round.png" alt="Natours" width="200"></a>
   <br>
   Natours Application
   <br>
